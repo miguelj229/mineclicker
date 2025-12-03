@@ -8,7 +8,7 @@ public class Timer : MonoBehaviour
 	[SerializeField] float tempoRestante;
 
 
-
+	public bool acabou = false;
 
 
 
@@ -31,6 +31,7 @@ public class Timer : MonoBehaviour
 		tempoRestante = 0;
 		textoTimer.color = Color.red;
 		//GameOver();
+		acabou = true;
 		Time.timeScale = 0f;
 	}
 
