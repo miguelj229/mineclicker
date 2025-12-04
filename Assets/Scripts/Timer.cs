@@ -4,6 +4,8 @@ using UnityEngine;
 public class Timer : MonoBehaviour
 {
 
+	public string nomeDoFilho = "GameOver";
+
 	[SerializeField] TextMeshProUGUI textoTimer;
 	[SerializeField] float tempoRestante;
 
@@ -16,7 +18,10 @@ public class Timer : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+		Time.timeScale = 1f;
+
+        Transform filho = transform.Find(nomeDoFilho);
+		filho.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -32,6 +37,11 @@ public class Timer : MonoBehaviour
 		textoTimer.color = Color.red;
 		//GameOver();
 		acabou = true;
+
+		Transform filho = transform.Find(nomeDoFilho);
+		filho.gameObject.SetActive(true);
+
+
 		Time.timeScale = 0f;
 	}
 

@@ -1005,7 +1005,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2101164549}
         m_TargetAssemblyTypeName: BotoesMenu, Assembly-CSharp
-        m_MethodName: IniciarJogo
+        m_MethodName: SairDoJogo
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1198,6 +1198,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2101164549}
+    - target: {fileID: 8086378165083215424, guid: 241aed545cda76f42b70da471c9215d2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: IniciarJogo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
