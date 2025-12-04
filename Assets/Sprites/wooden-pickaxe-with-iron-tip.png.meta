@@ -197,7 +197,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      wooden-pickaxe-with-iron-tip_0: -2207182768391470434
+      wooden-pickaxe-with-iron-tip_1: -5534035961619598920
+      wooden-pickaxe-with-iron-tip_2: 3678103663625826311
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
