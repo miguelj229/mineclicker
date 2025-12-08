@@ -321,7 +321,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nomeDoFilho: GameOver
   textoTimer: {fileID: 1457589041}
-  tempoRestante: 10
+  tempoRestante: 60
   acabou: 0
 --- !u!114 &161311865
 MonoBehaviour:
