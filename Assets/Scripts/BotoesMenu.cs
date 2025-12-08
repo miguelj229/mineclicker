@@ -18,6 +18,9 @@ public class BotoesMenu : MonoBehaviour
 		Application.Quit();
 	}
 
-
+	public void Configuracoes()
+	{
+		SceneManager.LoadScene("CONFIGURACOES");
+	}
 
 }

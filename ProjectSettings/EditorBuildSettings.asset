@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MENU.unity
     guid: 9d2ccc1a8e03dbe4e9372b49008859f4
   - enabled: 1
+    path: Assets/Scenes/CONFIGURACOES.unity
+    guid: 745c41296e4ae984ba8b3ae4fda6dfb6
+  - enabled: 1
     path: Assets/Scenes/JOGOCOMECOU.unity
     guid: 6b5a4684aaabf7d43947ae972ca312c9
   m_configObjects:
